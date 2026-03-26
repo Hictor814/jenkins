@@ -1,3 +1,3 @@
 FROM nginx:alpine
-COPY jenkins/index.html /usr/share/nginx/html/index.html
+COPY ./jenkins/index.html /usr/share/nginx/html/index.html
 EXPOSE 80
